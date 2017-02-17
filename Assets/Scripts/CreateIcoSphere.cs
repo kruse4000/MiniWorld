@@ -105,7 +105,7 @@ public class CreateIcoSphere : ScriptableWizard
         }
         mesh.triangles = triList.ToArray();
 
-        //UV's
+        //UV's ?
         Vector2[] UVs = new Vector2[mesh.vertices.Length];
 
         for (int i = 0; i < mesh.vertices.Length; i++)
